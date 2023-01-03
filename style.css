@@ -1,0 +1,26 @@
+/* Add some style to the page */
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+td {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid black;
+  font-size: 30px;
+  font-weight: bold;
+}
+td.player-1 {
+  color: red;
+}
+td.player-2 {
+  color: blue;
+}
+.message {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
